@@ -1,3 +1,8 @@
+span {
+    font-weight: bold;
+    font-size: 23px;
+}
+
 .center {
     text-align: center;
 }
@@ -25,7 +30,7 @@
 }
 
 #nhan {
-    background-image: url("https://scontent.fdad3-3.fna.fbcdn.net/v/t39.30808-1/p200x200/218325715_965654857553387_7752412335105348165_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=7206a8&_nc_ohc=gckNopZ2iPAAX8P51v2&tn=6ocPK-CExaT5932I&_nc_ht=scontent.fdad3-3.fna&oh=00_AT-CFNAI-Sc_YMpnPXQBbrmtjMSmSdr_izymoIOsayWdrQ&oe=61C53385");
+    background-image: url("https://scontent-xsp1-3.xx.fbcdn.net/v/t39.30808-6/218325715_965654857553387_7752412335105348165_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=2xU5O1KiMiwAX8jlZs1&tn=6ocPK-CExaT5932I&_nc_ht=scontent-xsp1-3.xx&oh=00_AT9PseVas1v6HGEjhcOoen9aewxWcdrSzuChYZcATtSq1A&oe=61CF9E6E");
 }
 
 #hoang {
@@ -50,4 +55,12 @@
 
 #khoi {
     background-image: url("https://scontent.fdad3-3.fna.fbcdn.net/v/t1.30497-1/143086968_2856368904622192_1959732218791162458_n.png?_nc_cat=1&ccb=1-5&_nc_sid=7206a8&_nc_ohc=7-dq37K8xb8AX_eSU0Q&tn=6ocPK-CExaT5932I&_nc_ht=scontent.fdad3-3.fna&oh=00_AT-LHVJopF2ZppRYSGzWcGSNpB88dn83W2YgecU97rqTSQ&oe=61E512F8");
+}
+
+#call {
+    background-image: url("https://thumbs.dreamstime.com/b/phone-call-icon-isolated-white-background-phone-call-icon-trendy-design-style-web-site-mobile-app-phone-call-vector-182083251.jpg");
+}
+
+#email {
+    background-image: url("https://cdn.iconscout.com/icon/free/png-256/email-2091034-1767507.png");
 }
