@@ -1,6 +1,6 @@
 function phone() {
     /* Copy the text inside the text field */
-    navigator.clipboard.writeText("0943778908");
+    navigator.clipboard.writeText("0937840446");
 
     /* Alert the copied text */
     alert("You have copied my phone number");
