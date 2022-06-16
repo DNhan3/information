@@ -1,10 +1,31 @@
-span {
-    font-weight: bold;
-    font-size: 23px;
+@font-face {
+    font-family: link;
+    src: url(jpeg/hlblong.ttf);
 }
 
-.center {
+html {
+    width:max-content;
+    height: 100%;
+
+    right: 0;
+    object-fit: cover;
+    padding: 0;
+    border: 0;
+    margin-right: -10%;
+}
+
+body {
+    background-color: black;
+}
+
+p{
     text-align: center;
+}
+
+span {
+    font-weight: bold;
+    font-size: 2em;
+    color: white;
 }
 
 .link {
@@ -30,28 +51,61 @@ span {
 }
 
 .block {
-    background-color: rgba(249, 249, 249, 255);
     margin: 20px auto;
     padding: 30px 20px 10px;
-    box-shadow: 1px 1px 5px gray;
     width: 60%;
-    border-radius: 5px;
 }
 
 #nhan {
-    background-image: url("https://scontent.fdad3-3.fna.fbcdn.net/v/t39.30808-6/218325715_965654857553387_7752412335105348165_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=s9V64G5g0CMAX8OsqNK&tn=6ocPK-CExaT5932I&_nc_ht=scontent.fdad3-3.fna&oh=00_AT8ILQznBes9Se8Josf3So2LhOiauIq8mCN67hrfMqe14g&oe=61EB4DEE");
+    background-size: cover;
+    background-image: url("jpeg//IMG_1511.jpg");
+    background-position-y: -50px;
+    background-position-x: 0px;
 }
 
 #call {
-    background-image: url("https://thumbs.dreamstime.com/b/phone-call-icon-isolated-white-background-phone-call-icon-trendy-design-style-web-site-mobile-app-phone-call-vector-182083251.jpg");
+    background-size: cover;
+    background-image: url("jpeg//IMG_3108.jpg");
+    background-position-y: 0px;
+    background-position-x: -20px;
 }
 
-#email {
-    background-image: url("https://cdn.iconscout.com/icon/free/png-256/email-2091034-1767507.png");
+.header-background {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -20;
+    position: absolute;
+    object-fit: cover;
 }
 
-.large {
-    display: none;
+#right {
+    margin-left: 50%;
+    width: 50%
+}
+
+#left {
+    width: 50%;
+}
+
+.text {
+    color: rgb(107, 213, 255);
+    font-weight: bold;
+    font-size: 1.5em ;
+}
+
+.carousel .slide{
+    width: 100%;
+}
+
+.menu{
+    top: 55%;
+    left: 0;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    position: absolute;
 }
 
 @media screen and (min-width: 992px) {
