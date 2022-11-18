@@ -1,6 +1,6 @@
 function phone() {
     /* Copy the text inside the text field */
-    navigator.clipboard.writeText("0815460325");
+    navigator.clipboard.writeText("0937840446");
 
     /* Alert the copied text */
     alert("You have copied my phone number");
@@ -8,7 +8,7 @@ function phone() {
 
 function email() {
     /* Copy the text inside the text field */
-    navigator.clipboard.writeText("anhhuy19012006@gmail.com");
+    navigator.clipboard.writeText("ducnhan141106@gmail.com");
 
     /* Alert the copied text */
     alert("You have copied my email address");
