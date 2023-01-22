@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    text-decoration: none;
+}
+
+.background{
+    margin-top: -5%;
+    width: 180%;
+    margin-top: 40%;
+    margin-left: -30%;
+    position: fixed;
+    z-index: -10;
+    filter: blur(4px);
+    opacity: 50%;
+}
+
+.main{
+    margin: 3% 3%;
+}
+
+.header{
+    animation-name: fade;
+    animation-duration: 1s;
+    animation-timing-function:ease-in-out;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    align-items: center;
+    margin: 10% 0 2%;
+}
+
+
+.ilist{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0;
+}
+
+.items{
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    margin: 4% 0;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items: center;
+    animation-name: fade;
+    animation-duration: 1s;
+    animation-timing-function:ease-in-out;
+}
+
+.name{
+    font-family: 'name', Times, serif;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 4%;
+}
+
+.des{
+    font-family: 'des','Times New Roman', Times, serif;
+    font-size: 25px;
+    color: white;
+    margin: 2% 0;
+}
+
+.iname{
+    font-size:25px;
+    font-family: 'inames','Times New Roman', Times, serif;
+    height: fit-content;
+    color: white;
+    margin-left: 0.5em;
+}
+
+.round{
+    border-radius: 50%;
+}
+
+.namebox{
+    display: flex;
+    flex-direction: column;
+    margin-left: 6%;
+}
+
+.insta{
+    background-image: url("img//instagram.png");
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;   
+}
+
+.face{
+    background-image: url("img//facebook.png");
+    background-size: 125%;
+    background-repeat: no-repeat;
+    background-position-x: -11px;   
+    background-position-y: -10px;
+}
+
+.gmail{
+    background-image: url("img//gmail.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;   
+}
+
+.vcb{
+    background-image: url("img//VCB.png");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+
+.phone{
+    background-image: url("img//phone-icon-in-black-and-white-telephone-symbol-vector-22968116.jpg");
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: -5px;  
+}
+
+#avt{
+    font-size: 12px;
+    width: 12em;
+    height: 12em;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    background-image: url("img//z3892319250223_82c8f44cd6d9e09ba2c4734690d40d6d.jpg");
+    background-size: 110%;
+    background-position-x: 30%;
+    background-position-y: 50%;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+
+#deco{
+    font-size: 12px;
+    width: 12em;
+    height: 12em;
+    border-color: aliceblue;
+    border-style: solid;
+    border-width: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ipic{
+    font-size: 10px;
+    width: 8em;
+    height: 8em;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    margin-top: auto;
+}
+
+@font-face {
+    font-family: name;
+    src: url("Fonts//UVNAnhHaiNhe_I.TTF");
+} 
+
+@font-face {
+    font-family: des;
+    src: url("Fonts///UTMBustamalaka.ttf");
+}
+
+@font-face {
+    font-family: inames;
+    src: url("Fonts///calibri.ttf");
+}
+
+@keyframes fade {
+    0% {opacity: 0;}
+    100% {opacity: 100%;}
+}
